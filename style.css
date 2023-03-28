@@ -122,6 +122,7 @@ nav {
 
 .cv .fa {
 	cursor: pointer;
+	transition: all 0.3 ease;
 }
 
 .social-media {
@@ -129,6 +130,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	font-size: large;
+	transition: all 0.3 ease;
 }
 
 .social-media .fab {
