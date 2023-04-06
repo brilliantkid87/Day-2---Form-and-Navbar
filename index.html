@@ -13,16 +13,26 @@
     <header>
         <nav>
             <div class="navbar-left">
-                <a href="#">
+                <a href="/index.html">
                     <img src="/Assets/Binance_Logo.png" alt="logo">
                 </a>
-                <a href="#">Home</a>
-                <a href="#">My Project</a>
+                <a href="/index.html" class="nav-list">Home</a>
+                <a href="/blog.html" class="nav-list">My Project</a>
             </div>
-            <div class="navbar-right">
+            <div class="navbar-right nav-list">
                 <a href="/contact.html">Contact Me</a>
             </div>
-        </nav>       
+            <div class="navbar-right" id="barsmenu">
+                <button onclick="openHumberger()" style="background-color: transparent; border: none; cursor: pointer;">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="humberger-nav-container" id="humberger-nav-container">
+            <a href="/index.html" class="humberger-nav-active">Home</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/contact.html">Contact Me</a>
+        </div>       
     </header>
 
     <div class="container">
@@ -50,9 +60,10 @@
                 <h4><b>Changpeng Zhao</b></h4> 
             </div>
         </div>
-
-
     </div>
+
+    <script src="/navbar.js"></script>
+    
 
 </body>
 </html>
